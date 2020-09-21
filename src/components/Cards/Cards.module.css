@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.date{
+    text-align: center;
+}
+
+.firstAlert{
+    flex-grow: 1;
+}
+.secondAlert{
+    flex-grow: 1;
+}
+.thirdAlert{
+    flex-grow: 1;
+}
