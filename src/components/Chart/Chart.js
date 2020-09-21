@@ -23,12 +23,12 @@ const Chart = ({ data: { confirmed, recovered, deaths}, country }) => {
                         labels: dailyData.map(({ date }) => date),
                         datasets: [{
                             data: dailyData.map(({confirmed}) => confirmed),
-                            label: 'Infected',
+                            label: 'Всего случаев',
                             borderColor: '#3333ff',
                             fill: true,
                         },{
                             data: dailyData.map(({ deaths }) => deaths),
-                            label: 'Deaths',
+                            label: 'Летальные исходы',
                             backgroundColor: 'rgba(255,0,0,0.5)',
                             fill: true,
                         }],
